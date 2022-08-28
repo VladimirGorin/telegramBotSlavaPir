@@ -1,0 +1,15 @@
+{
+  "name": "ekatirina",
+  "version": "1.0.0",
+  "description": "Teelgram parse bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "VladimirGorin",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.58.0",
+    "nodemon": "^2.0.19"
+  }
+}
