@@ -4,7 +4,7 @@ const bot = new TelegramBotApi(token, { polling: true })
 const users = require('./data/base/users.json')
 const { setInterval } = require('timers')
 
-const adminChat = 5015947677
+const adminChat = 616043947
 
 function prettify(number) {
     return String(number).replace(/(\d)(?=(\d{3})+([^\d]|$))/g, "$1 ").replace(/\s/g, '.')
